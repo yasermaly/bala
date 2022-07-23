@@ -6,9 +6,7 @@
 body {
     width: 100%;
     height: 100vh;
-    border-bottom: solid 10px rgb(48, 34, 178);
-    border-left: solid 10px rgb(48, 34, 178);
-    border-right: solid 10px rgb(48, 34, 178);
+    border: solid 10px rgb(48, 34, 178);
 }
 
 #particles-js {
@@ -16,9 +14,9 @@ body {
     width: 100%;
     height: 100%;
     display: flex;
-    flex-direction: column-reverse;
+    flex-direction: column;
 }
 
 .soundcloud {
- 
+ align-items: flex-end;
 }
